@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed --spec cypress/e2e/Login.cy.js --browser chrome"
+    "cypress:chrome": "cypress run --spec cypress/e2e/Login.cy.js --browser chrome",
+    "cypress:edge": "cypress run --spec cypress/e2e/Login.cy.js --browser edge"
   },
   "author": "",
   "license": "ISC",
