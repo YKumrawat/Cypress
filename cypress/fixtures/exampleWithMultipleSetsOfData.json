@@ -1,0 +1,20 @@
+[{
+  "name": "Coffee",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+},
+{
+  "name": "Mug",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+},
+
+{
+  "name": "Tea",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
+
+
+
+]
