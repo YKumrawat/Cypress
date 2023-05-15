@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
     "cypress:chrome": "cypress run --spec cypress/e2e/Login.cy.js --browser chrome",
     "cypress:edge": "cypress run --spec cypress/e2e/Login.cy.js --browser edge",
     "runner-in-qa":"cypress open --env version=qa",
     "runner-in-uat":"cypress open --env version=uat"
+
+   
   },
   "author": "",
   "license": "ISC",
