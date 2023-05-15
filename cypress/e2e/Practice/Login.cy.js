@@ -13,7 +13,7 @@ testData=data;
         const ln = new Login();
         
         ln.setUsername(testData.username);
-        ln.setPassword(testData.passwor);
+        ln.setPassword(testData.password);
         ln.clickSubmit();
         ln.verifyLogin(testData.expected);
 
