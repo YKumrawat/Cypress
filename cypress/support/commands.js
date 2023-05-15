@@ -26,10 +26,16 @@
 
 ///<reference types="Cypress"/>
 require('cypress-iframe');
+require('cypress-plugin-tab');
 // Example- cy.getIframe("#ghgljll")
-Cypress.Commands.add('getIframe',(iframelocator)=>{
-return cy.get(iframelocator)
+Cypress.Commands.add('getIframe',(iframeLocator)=>{
+return cy.get(iframeLocator)
 .its('0.contentDocument.body')
 .should('be.visible')
 .then(cy.wrap);
+});
+
+Cypress.Commands.add('selectDropdown',(dropdownLocator,dropdownValue)=>{
+   return cy.get(dropdownLocator).should(dropdownValue).click();
 })
+

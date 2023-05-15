@@ -21,6 +21,7 @@ import 'cypress-mochawesome-reporter/register';
 // require('./commands')
 ///<reference types="Cypress"/>
 require('@cypress/xpath')
+chai.use(require('chai-json-schema'));
 
 //Turn off all uncaught expection
 Cypress.on('uncaught:exception', (err, runnable) => {

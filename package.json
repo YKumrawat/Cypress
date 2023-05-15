@@ -5,17 +5,23 @@
   "main": "index.js",
   "scripts": {
     "cypress:chrome": "cypress run --spec cypress/e2e/Login.cy.js --browser chrome",
-    "cypress:edge": "cypress run --spec cypress/e2e/Login.cy.js --browser edge"
+    "cypress:edge": "cypress run --spec cypress/e2e/Login.cy.js --browser edge",
+    "runner-in-qa":"cypress open --env version=qa",
+    "runner-in-uat":"cypress open --env version=uat"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.9.0"
+    "chai-json-schema": "^1.5.1",
+    "cypress": "^12.9.0",
+    "cypress-drag-drop": "^1.1.1"
   },
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
     "@cypress/xpath": "^2.0.3",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
-    "cypress-mochawesome-reporter": "^3.3.0"
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-plugin-tab": "^1.0.5"
   }
 }

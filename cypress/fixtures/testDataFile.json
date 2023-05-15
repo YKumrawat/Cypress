@@ -1,0 +1,24 @@
+{
+
+    
+    "fix_firstName":"Alden",
+    "fix_lastName":"Cantrell",
+    "fix_age":30,
+    "fix_email":"test@test.com",
+    "fix_salary":12323,
+    "fix_department":"QA",
+    "fix_secondRowFirstName":"Gerimedica",
+    "fix_secondRowLastName":"BV",
+    "fix_forms_Firstname":"Gerimedica",
+    "fix_forms_Lastname":"BV",
+    "fix_forms_Email":"test@test.com",
+    "fix_forms_Mobile":"0123456789",
+    "fix_forms_DOB": "15 Jan 1990",
+    "fix_forms_subjects":"Chemistry",
+    "fix_forms_currentAddress":"Netherlands",
+    "fix_form_state":"NCR",
+    "fix_form_city":"Delhi"
+
+
+
+}
